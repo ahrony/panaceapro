@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'base',
     'HR',
     'procurement',
+    'Account',
     'Adminmodel',
 )
 

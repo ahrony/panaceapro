@@ -5,7 +5,7 @@ from .models import *
 # Register your models here.
 
 
-class PresentEmployeeNameInline(admin.TabularInline):
+class PresentEmployeeNameInline(admin.StackedInline):
 	model = PresentEmployeeName
 	extra = 10
 	exclude = ("created_by", "updated_by")
