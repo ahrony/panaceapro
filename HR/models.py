@@ -38,7 +38,7 @@ class ReferenceCheck(BaseModel):
 	ref_name = models.CharField(max_length = 128, verbose_name= "Reference Name")
 	relation = models.CharField(max_length = 128, verbose_name= "Relationship with the Reference Personnel")
 	company_name = models.CharField(max_length = 128)
-	Phone_number = models.CharField(max_length = 128)
+	phone_number = models.CharField(max_length = 128)
 	date_from = models.DateField(verbose_name="From")
 	date_to = models.DateField(verbose_name="To")
 	position = models.CharField(max_length=128, verbose_name ="position(s) Held")
